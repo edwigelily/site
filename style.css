@@ -1,0 +1,33 @@
+body  {
+    background-image: url(assets/img/maison_acceuil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+span {
+    font-size: 100px;
+    font-family: AlexBrush-Regular;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 5, 83);
+    text-shadow: 8px 9px 5px black;
+}
+a:hover{
+    color: yellow;
+    font-size: 150px;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+#welcome {
+    text-align: center;
+    margin-top: 15%;
+}
+@font-face {
+    font-family: 'AlexBrush-Regular';
+    src: url(AlexBrush-Regular.ttf);
+}

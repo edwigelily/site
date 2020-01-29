@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body{
+    background-image: url(assets/img/poster-mockup-2853834_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(12, 12, 63);
+    border-radius: 8px;
+
+}
+nav a,ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+
+}
+
+a{
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+a:hover{
+    opacity: 0.5;
+}
+.figure{
+
+    display: flex;
+    justify-content: flex-end;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: rgb(12, 12, 63);
+}
